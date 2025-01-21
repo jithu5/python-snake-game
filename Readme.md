@@ -18,13 +18,13 @@
 - Clone the repository or download the project files.
 
 ```bash
-    git clone 
+    git clone https://github.com/jithu5/python-snake-game.git
 ```
 
 - Open a terminal and navigate to the project directory.
 
 ```bash
-    cd 
+    cd python-snake-game
 ```
 
 - Run the game using the following command:
