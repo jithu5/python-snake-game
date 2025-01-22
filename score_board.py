@@ -14,8 +14,11 @@ class Scoreboard(Turtle):
         self.update_score()
 
     def read_high_score(self):
-        with open("previous_high_scores.txt","r") as file:
-            self.high_score = int(file.read()) or 0
+        try:
+            with open("previous_high_scores.txt","r") as file:
+                self.high_score = int(file.read()) or 0
+        except ValueError as ve:
+            self.high_score = 0
 
     def update_score(self):
         self.clear()
