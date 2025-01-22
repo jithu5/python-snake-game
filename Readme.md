@@ -1,13 +1,13 @@
 # Snake Game
 
-**This is a simple implementation of the classic Snake game using Python's turtle module. The game involves controlling a snake to eat food, grow in size, and avoid collisions with the walls and its own tail.**
+**This is a simple implementation of the classic Snake game using Python's turtle module. The game involves controlling a snake to eat food, grow in size, and avoid collisions with the walls and its own tail.The game also tracks the highest score achieved during the session.**
 
 ## Files
 
 - main.py: The main entry point of the game. It sets up the game screen, initializes the snake, food, and scoreboard, and contains the game loop.
 - snake.py: Contains the Snake class, which manages the snake's segments, movement, and direction controls.
 - food.py: Contains the Food class, which manages the food's appearance and random positioning on the screen.
-- score_board.py: Contains the Scoreboard class, which manages the score display and game over message.
+- score_board.py: Contains the Scoreboard class, which manages the score display, game over message and high score tracking.
 
 ---
 
@@ -48,6 +48,10 @@ This project relies on Python's built-in turtle and random modules. There are no
 - Left: Move left
 - Right: Move right
 
-Enjoy playing the Snake game!
+**The game tracks your current score as you collect food and grow the snake.**
+
+**Your high score during the session will be displayed and updated whenever you surpass the previous high score.**
+
+## Enjoy playing the Snake game and try to beat your high score! 🎮🐍
 
 ---
